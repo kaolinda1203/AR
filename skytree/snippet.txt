@@ -1,0 +1,14 @@
+<model-viewer src="2026-9-17.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.17783907243845276m -0.13972698689541185m 0.06469182096866379m" data-normal="-0.06020498616267292m 0.05942040146191141m 0.996415864752894m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">天空樹</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
