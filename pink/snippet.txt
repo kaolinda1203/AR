@@ -1,0 +1,14 @@
+<model-viewer src="pl.pink.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-8" data-position="0.11338114704341913m 0.03901354749422704m 0.1273952816643589m" data-normal="-0.046057140569398414m 0.8288744032489409m 0.5575356162984414m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">多肉盆栽</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
